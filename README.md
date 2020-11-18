@@ -36,7 +36,7 @@ values.
 ### Usage
 
 If you want the application to notify you when a product is in stock set you email in the users table. 
-The application when it detects the product is available it will email you notifying you.
+The application when it detects the product is available it will email your notifying you.
 
 ### Acknowledgments
  - Laracasts.com - ['Build A Stock Tracker App'](https://laracasts.com/series/build-a-stock-tracker-app).
