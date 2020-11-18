@@ -44,7 +44,7 @@ class TrackStock implements ShouldQueue
 
     protected function notifyUser()
     {
-        if ($this->isNowInStock()) {
+        if ($this->isNowInStock() && (User::all())->count() > 0) {
             User::first()->notify(
                 new ImportantStockUpdate($this->stock)
             );
